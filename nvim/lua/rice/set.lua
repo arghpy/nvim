@@ -20,3 +20,6 @@ vim.opt.updatetime = 100
 
 -- Color scheme
 vim.cmd.colorscheme "catppuccin"
+
+-- Required to copy files
+vim.g.netrw_keepdir = 0
